@@ -1,0 +1,17 @@
+{
+  "name": "personal-text-editor-website",
+  "version": "1.0.0",
+  "description": "A simple personal website that includes a powerful text editor, allowing you to edit documents just like in Google Docs or Microsoft Word.",
+  "main": "main.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "tailwind build styles.css -o output.css"
+  },
+  "dependencies": {
+    "quill": "^2.0.0",
+    "tailwindcss": "^2.2.16"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

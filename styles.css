@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    @apply bg-gray-900 text-white;
+}
+
+#editor-container {
+    @apply p-5 bg-gray-800 rounded shadow-lg;
+}
+
+#save-button {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
