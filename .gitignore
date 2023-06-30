@@ -1,0 +1,12 @@
+# .gitignore
+
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.cache/
+.nuxt/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
